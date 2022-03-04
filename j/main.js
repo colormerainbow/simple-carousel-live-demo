@@ -17,6 +17,7 @@ function init() {
   // show the first slide
   slides[0].classList.remove("hide");
   
+  //make the controls work
    next_btn.addEventListener("click",changeSlide);
    back_btn.addEventListener("click", changeSlide);
 
